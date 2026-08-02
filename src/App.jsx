@@ -54,7 +54,7 @@ import { useDispatch } from 'react-redux'
 import { setUserData } from './redux/userSlice'
 import InterviewPage from './pages/InterviewPage'
 
-export const ServerUrl = 'http://localhost:8000'
+export const ServerUrl = 'https://interview-system-backend-2ark.onrender.com'
 
 function App() {
   const dispatch = useDispatch()
