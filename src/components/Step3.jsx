@@ -30,9 +30,9 @@ ChartJS.register(
   Filler
 );
 
-function Step3({ results, onRetry }) {
+function Step3({ interviewResults, onRetry }) {
   // Add null/undefined checks
-  if (!results) {
+  if (!interviewResults) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-white to-teal-100 flex items-center justify-center p-6">
         <div className="bg-white rounded-3xl shadow-2xl p-8 text-center">
@@ -59,7 +59,7 @@ function Step3({ results, onRetry }) {
     overallFeedback = "Interview completed successfully!",
     role = "Candidate",
     mode = "Interview"
-  } = results;
+  } = interviewResults;
 
   // Generate improvement suggestions based on scores
   const generateSuggestions = () => {

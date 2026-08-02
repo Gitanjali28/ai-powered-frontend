@@ -76,7 +76,7 @@ function InterviewPage() {
         <Step2 interviewData={interviewData} onFinish={handleInterviewFinish} />
       )}
       {step === 3 && interviewResults && (
-        <Step3 results={interviewResults} onRetry={handleRestart} />
+       <Step3 interviewResults={interviewResults} onRetry={handleRestart} />
       )}
     </div>
   );
