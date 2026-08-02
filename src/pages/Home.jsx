@@ -257,7 +257,7 @@ import {
 
 // Assets
 import analyticImg from "../assets/ai-ans.png";
-import resumeImg from "../assets/TECH.png";
+import resumeImg from "../assets/tech.png";
 import pdfImg from "../assets/pdf.png";
 import evalImg from "../assets/HR.png";
 import credit from "../assets/credit.png"
